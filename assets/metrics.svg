@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Reported result snapshot</title>
+  <desc id="desc">Four metric cards summarize approximately 85 percent gender accuracy, 6.14 age mean absolute error, 0.80 age R squared, and 78.03 age mean squared error.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="pink" x1="0" x2="1"><stop stop-color="#f472b6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <rect width="900" height="300" rx="24" fill="url(#bg)"/>
+  <text x="44" y="48" fill="#fff" font-family="Inter,Segoe UI,sans-serif" font-size="21" font-weight="700">Reported held-out snapshot</text>
+  <text x="44" y="73" fill="#a5b4fc" font-family="Inter,Segoe UI,sans-serif" font-size="13">Values transcribed from the notebook narrative; rerun the experiment for a fresh measurement.</text>
+  <g transform="translate(44,105)">
+    <rect width="190" height="140" rx="18" fill="#1e3a8a"/>
+    <text x="20" y="35" fill="#bfdbfe" font-family="Inter,Segoe UI,sans-serif" font-size="13">GENDER ACCURACY</text>
+    <text x="20" y="86" fill="url(#cyan)" font-family="Inter,Segoe UI,sans-serif" font-size="42" font-weight="800">~85%</text>
+    <text x="20" y="115" fill="#dbeafe" font-family="Inter,Segoe UI,sans-serif" font-size="12">classification</text>
+  </g>
+  <g transform="translate(254,105)">
+    <rect width="190" height="140" rx="18" fill="#312e81"/>
+    <text x="20" y="35" fill="#ddd6fe" font-family="Inter,Segoe UI,sans-serif" font-size="13">AGE MAE</text>
+    <text x="20" y="86" fill="url(#pink)" font-family="Inter,Segoe UI,sans-serif" font-size="42" font-weight="800">6.14</text>
+    <text x="20" y="115" fill="#ede9fe" font-family="Inter,Segoe UI,sans-serif" font-size="12">years, average error</text>
+  </g>
+  <g transform="translate(464,105)">
+    <rect width="190" height="140" rx="18" fill="#164e63"/>
+    <text x="20" y="35" fill="#a5f3fc" font-family="Inter,Segoe UI,sans-serif" font-size="13">AGE R²</text>
+    <text x="20" y="86" fill="url(#cyan)" font-family="Inter,Segoe UI,sans-serif" font-size="42" font-weight="800">0.80</text>
+    <text x="20" y="115" fill="#cffafe" font-family="Inter,Segoe UI,sans-serif" font-size="12">variance explained</text>
+  </g>
+  <g transform="translate(674,105)">
+    <rect width="182" height="140" rx="18" fill="#500724"/>
+    <text x="20" y="35" fill="#fbcfe8" font-family="Inter,Segoe UI,sans-serif" font-size="13">AGE MSE</text>
+    <text x="20" y="86" fill="url(#pink)" font-family="Inter,Segoe UI,sans-serif" font-size="42" font-weight="800">78.03</text>
+    <text x="20" y="115" fill="#fce7f3" font-family="Inter,Segoe UI,sans-serif" font-size="12">squared error</text>
+  </g>
+</svg>
